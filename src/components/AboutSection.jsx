@@ -9,12 +9,6 @@ const STATS = [
 ];
  
 export const AboutSection = () => {
-    const headingRef = useScrollReveal();
-    const textRef = useScrollReveal();
-    const card1Ref = useScrollReveal();
-    const card2Ref = useScrollReveal();
-    const card3Ref = useScrollReveal();
-
     return (
     <section id="about" className="border-t-2 border-paper/[0.12]">
       <div className="mx-auto grid max-w-[1180px] grid-cols-1 items-start gap-[64px] px-6 py-[104px] md:grid-cols-[0.85fr_1.15fr] md:px-[52px]">
