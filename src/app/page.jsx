@@ -1,12 +1,21 @@
-import VantaBackground from "../components/vantabackground";
+import { HeroSection } from "../components/HeroSection";
+import { AboutSection } from "../components/AboutSection";
+import { ProjectsSection } from "../components/ProjectsSection";
+import { TechnologiesSection } from "../components/TechnologiesSection";
+import { EducationSection } from "../components/EducationSection";
+import { ContactSection } from "../components/ContactSection";
+import { Footer } from "../components/Footer";
 
 export default function Home() {
   return (
-    <VantaBackground>
-      <div className="flex flex-col items-center justify-center min-h-screen">
-        <h1 className="text-6xl font-bold text-white mb-4">Lucio Ruben Villena</h1>
-        <p className="text-lg text-gray-300">A passionate developer</p>
-      </div>
-    </VantaBackground>
+    <main>
+      <HeroSection />
+      <AboutSection />
+      <ProjectsSection />
+      <TechnologiesSection />
+      <EducationSection />
+      <ContactSection />
+      <Footer />
+    </main>
   );
 }
