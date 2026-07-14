@@ -7,9 +7,15 @@ const STATS = [
   { label: "Studying", value: "B.S. → M.S. CpE" },
   { label: "Open to", value: "SWE / ML roles" },
 ];
-
+ 
 export const AboutSection = () => {
-  return (
+    const headingRef = useScrollReveal();
+    const textRef = useScrollReveal();
+    const card1Ref = useScrollReveal();
+    const card2Ref = useScrollReveal();
+    const card3Ref = useScrollReveal();
+
+    return (
     <section id="about" className="border-t-2 border-paper/[0.12]">
       <div className="mx-auto grid max-w-[1180px] grid-cols-1 items-start gap-[64px] px-6 py-[104px] md:grid-cols-[0.85fr_1.15fr] md:px-[52px]">
         <Reveal
@@ -25,7 +31,7 @@ export const AboutSection = () => {
           </div>
           <h2 className="mb-[26px] text-[44px] font-light leading-[1.06] tracking-[-0.008em] text-paper">
             Engineer across the stack — from silicon to the browser.
-          </h2>
+                </h2>
           <p className="mb-[18px] max-w-[60ch] text-[16.5px] leading-[1.66] text-paper/[0.66]">
             I&apos;m a Computer Engineering student at the University of Central
             Florida (GPA 3.62), graduating May 2026 and continuing into a
@@ -53,7 +59,7 @@ export const AboutSection = () => {
             ))}
           </div>
         </Reveal>
-      </div>
-    </section>
-  );
+            </div>
+        </section>
+    );
 };
