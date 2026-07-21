@@ -37,7 +37,7 @@ export const Navbar = () => {
             </a>
           ))}
           <a
-            href="docs/Lucio Ruben Villena Resume.pdf"
+            href="docs/Resume_Lucio_Ruben_Villena.pdf"
             download
             className="inline-flex items-center gap-[7px] bg-brand px-[15px] py-[9px] text-[12px] font-semibold uppercase tracking-[0.08em] text-white no-underline transition-colors hover:bg-brand-hover"
           >
