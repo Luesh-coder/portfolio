@@ -1,5 +1,6 @@
 import { cn } from "../lib/utils";
 import { Reveal } from "./Reveal";
+import { ContactForm } from "./ContactForm";
 import { RESUME_URL } from "../lib/constants";
 
 const LINKS = [
@@ -52,8 +53,12 @@ export const ContactSection = () => {
         </Reveal>
 
         <Reveal delay={0.18}>
+          <ContactForm />
+        </Reveal>
+
+        <Reveal delay={0.24}>
           <a
-            href={RESUME_URL}
+            href="docs/Lucio Ruben Villena Resume.pdf"
             download
             className="mt-10 inline-flex items-center gap-[10px] bg-ink px-[26px] py-4 text-[13px] font-semibold uppercase tracking-[0.08em] text-[#fdefec] no-underline transition-colors hover:bg-ink-raise"
           >

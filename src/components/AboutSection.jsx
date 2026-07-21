@@ -1,6 +1,6 @@
 import { cn } from "../lib/utils";
 import { Reveal } from "./Reveal";
-import { ImageSlot } from "./ImageSlot";
+// import { ImageSlot } from "./ImageSlot";
 
 const STATS = [
   { label: "Based in", value: "Orlando, FL" },
@@ -13,12 +13,16 @@ export const AboutSection = () => {
     <section id="about" className="border-t-2 border-paper/[0.12]">
       <div className="mx-auto grid max-w-[1180px] grid-cols-1 items-start gap-[64px] px-6 py-[104px] md:grid-cols-[0.85fr_1.15fr] md:px-[52px]">
         <Reveal
-          className="relative aspect-[4/5] w-full border-2 border-paper/[0.14]"
+          className="relative aspect-[4/5] w-full"
           style={{ filter: "grayscale(1) contrast(1.05)" }}
         >
-          <ImageSlot label="Drop your headshot" />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/img/Headshot.png"
+            alt="Lucio Villena"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
         </Reveal>
-
         <Reveal delay={0.08}>
           <div className="mb-[22px] text-[12px] font-medium uppercase tracking-[0.28em] text-brand-2">
             01 — About

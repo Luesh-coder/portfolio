@@ -1,6 +1,6 @@
 import { cn } from "../lib/utils";
 import { Reveal } from "./Reveal";
-import { ImageSlot } from "./ImageSlot";
+// import { ImageSlot } from "./ImageSlot";
 
 const GitHubIcon = ({ size = 15 }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -163,8 +163,8 @@ export const ProjectsSection = () => {
               <GitHubLink href="https://github.com/Luesh-coder/S.T.A.R.-Software" />
             </div>
 
-            <div className="relative aspect-[4/3] w-full border-2 border-paper/[0.14]">
-              <ImageSlot label="Drop a S.T.A.R. demo frame" />
+            <div className="relative aspect-[4/3] w-full">
+              {/* <ImageSlot label="Drop a S.T.A.R. demo frame" /> */}
             </div>
           </div>
         </Reveal>
