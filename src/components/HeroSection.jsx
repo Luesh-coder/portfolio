@@ -230,7 +230,7 @@ export const HeroSection = () => {
               View work&nbsp;&nbsp;→
             </a>
             <a
-              href={RESUME_URL}
+              href="docs/Lucio Ruben Villena Resume.pdf"
               download
               className="inline-flex items-center gap-[9px] border-2 border-paper/[0.28] px-[22px] py-[13px] text-[13px] font-semibold uppercase tracking-[0.06em] text-paper no-underline transition-colors hover:border-brand-2 hover:text-glow"
             >
