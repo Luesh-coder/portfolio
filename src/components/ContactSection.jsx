@@ -58,7 +58,7 @@ export const ContactSection = () => {
 
         <Reveal delay={0.24}>
           <a
-            href="docs/Lucio Ruben Villena Resume.pdf"
+            href="docs/Resume_Lucio_Ruben_Villena.pdf"
             download
             className="mt-10 inline-flex items-center gap-[10px] bg-ink px-[26px] py-4 text-[13px] font-semibold uppercase tracking-[0.08em] text-[#fdefec] no-underline transition-colors hover:bg-ink-raise"
           >

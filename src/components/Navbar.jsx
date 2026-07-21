@@ -71,7 +71,7 @@ export const Navbar = () => {
             </a>
           ))}
           <a
-            href={RESUME_URL}
+            href="docs/Resume_Lucio_Ruben_Villena.pdf"
             download
             onClick={() => setMenuOpen(false)}
             className="mt-2 inline-flex w-fit items-center gap-[7px] bg-brand px-[15px] py-[9px] text-[12px] font-semibold uppercase tracking-[0.08em] text-white no-underline transition-colors hover:bg-brand-hover"
